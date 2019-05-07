@@ -1,0 +1,407 @@
+/*Start Main Rules*/
+.mybody {
+
+	background-color: #F4F4F4;
+}
+
+.form-control{
+    position: relative;
+}
+
+.asterisk{
+    display: inline-block;
+    color: red;
+    font-size: 33px;
+    position: absolute;
+    right: 25px;
+    top: 8px;
+    font-weight: bold;
+}
+/*Show password*/
+.show-pass{
+    position: absolute;
+    right: -23px;
+    top: 9px;}
+
+
+/*End  Main Rules*/
+
+/*Start Login Form*/
+.login 
+{
+	width: 300px;
+	margin:100px auto;
+}
+.login h6{
+      font-size: 11px;
+      color: red;
+      font-weight: bold;
+}
+.login .text-center {
+		color: #888;
+		margin-bottom: 5px
+}
+.login input
+{
+	margin-bottom: 10px;
+}
+
+.login .form-control
+{
+	background-color: #EAEAEA;
+}
+.login .btn {
+	background-color: #008dde;
+	font-weight: bold;
+} 
+/*End Login Form */
+/*Start BootStrap Edites*/
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.nav > li > a,
+.navbar-brand
+{
+    padding: 15px 12px;
+}
+
+
+
+.navbar-brand{
+    font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu
+{
+        background-color: #3498db;
+
+}
+.dropdown-menu{
+    min-width: 180px;
+    padding: 0px;
+    font-size: 1em; 
+    border: none;
+    border-radius: 0px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    color: #fff;
+    background-color: #8e44ad;
+}
+
+.dropdown-menu > li > a 
+{
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.dropdown-menu>li>a:hover 
+{
+    padding: 10px 25px;
+}
+/*End BootStrap Edites*/
+
+/*Start DashBoard Page*/
+.home-stats .stat{
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.home-stats .stat i {
+        font-size: 80px;
+    position: absolute;
+    top: 35px;
+    left: 13px;
+}
+.home-stats .stat .info{
+    float: right;
+}
+.home-stats .stat span{
+    display: block;
+    font-size: 60px;
+}
+.home-stats .stat span a{
+    color: #fff;
+}
+.home-stats .stat span a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.last{
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+.last .toggle-info:hover{
+    color: #999;
+    cursor: pointer;
+}
+.home-stats .st-members{
+    background-color: #3498db;
+}
+.home-stats .st-pending{
+        background-color: #c0392b;
+
+}
+.home-stats .st-items{
+        background-color: #d35400;
+
+}
+.home-stats .st-comment{
+        background-color: #8e44ad;
+
+}
+
+.lastes-users{
+    margin-bottom: 0px;
+}
+.lastes-users li{
+    padding: 10px;
+    overflow: hidden;
+
+}
+.panel-default > .panel-heading{
+    background: #555;
+    color: #fff;
+}
+.lastes-users a{
+   color: #fff;
+    text-decoration: none;
+} 
+.lastes-users .btn-success,
+.lastes-users .btn-info
+{
+    padding: 2px 8px;
+}
+.lastes-users li:nth-child(odd){
+    background-color: #EEE;
+}
+
+.last .comment-box{
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+} 
+.last .comment-box .meber-n{
+    float: left;
+}
+.last .comment-box .comment-com{
+     width: calc(100% - 100px);
+    background: #bfbfbf;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+.last .comment-box .member-n{
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    top: 17px;
+    
+    
+}
+
+.last .comment-box .comment-com:before{
+    content: "";
+    position: absolute;
+    left: -33px;
+    top: 1px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #bfbfbf transparent transparent;
+    border-width: 19px;
+    
+
+}
+.last .comment-box .btn-dash{
+  border-radius: 12px;
+    padding: 0px 5px;
+    position: absolute;
+    right: -1px;
+    top: 10px;
+    font-size: 12px;
+    
+}
+/*End DashBoard Page*/
+
+
+/* Start Member Page */
+
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #444;
+}
+.main-table{
+       -webkit-box-shadow: 0 3px 10px #ccc;
+       -moz-box-shadow: 0 3px 10px #ccc;
+       box-shadow: 0 3px 10px #ccc;
+
+}
+.main-table tr:first-child td{
+    background: #333;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.main-table td{
+    background: #fff;
+    vertical-align: middle !important;
+}
+.main-table tr td a{
+    font-weight: bold;
+}
+.main-table .btn{
+    padding: 3px 10px;
+}
+/* End Member Page */
+.btn{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.activate{
+    margin-left: 5px;
+}
+/*End Member Page*/
+/*End Catrgory Page*/
+
+
+.catrgories .panel-defulte{
+-webkit-box-shadow: 0 3px 10px #ccc;
+       -moz-box-shadow: 0 3px 10px #ccc;
+       box-shadow: 0 3px 10px #ccc;
+}
+
+
+.panel-body {
+    padding: 0px;
+}
+.catrgories a{
+    margin-bottom: 7px;
+}
+
+.panel-heading{
+    background-color: #d4cece;
+    color: #959595;
+    font-weight: bold;
+}
+.panel-heading i{
+    position: relative;
+    top: 1px;
+}
+.catrgories .cat{
+    margin-bottom: 0px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+
+}
+.catrgories .cat .hidden-btn{
+    position: absolute;
+    top: 15px;
+    right: -220px;
+}
+.catrgories .cat:hover .hidden-btn{
+    -webkit-transition: all .5s ease-in-out;    
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    right: 10px;
+}
+.catrgories .cat:hover{
+    background-color: #999;
+}
+
+
+
+.catrgories .cat h3{ 
+    margin: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #6A6A6A;
+}
+
+.catrgories .cat .full_view p{
+    margin-top: 10px 0px;
+    color: #707070;
+}
+
+.catrgories  hr{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top: 1px dashed #666;
+    
+}
+.catrgories .cat:last-of-type ~ hr{
+    display: none;
+}
+.catrgories .cat span{
+    margin: 0px 10px 0px 0px;
+}
+.catrgories .cat .visibility{
+        background-color: #a94442;
+        color: #fff;
+        padding: 8px 9px;
+        border-radius: 9px;   
+}
+.catrgories .cat .comment{
+        background-color: #337ab7;
+        color: #fff;
+        padding: 8px 9px;
+        border-radius: 9px;   
+}
+.catrgories .cat .ads{
+        background-color: #8a6d3b;
+        color: #fff;
+        padding: 8px 9px;
+        border-radius: 9px;   
+}
+
+.catrgories .option a{
+    color: #888;
+    text-decoration: none;
+}
+
+.catrgories .option span{
+    color: #888;
+    cursor: pointer;
+}
+
+.catrgories .option .active{
+    color: #F00 ;
+}
+/*End Category Page*/
+/*End Item Page*/
+.tbl {
+    width: 95%;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 20px;
+
+}
+
+.tbl tr td:last-of-type
+{
+    min-width: 275px;
+}
+.additem{
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+/*End Item Page*/
